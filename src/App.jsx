@@ -1,8 +1,8 @@
 import React from 'react';
 import HomePage from "./components/HomePageDesktop"; 
-import {ProductCard} from "./components/ProductCard"
+import Footer from './components/Footer';
 import './App.css';
-import { Button } from "@/components/ui/button"
+
 function App() {
   return (
       <div className="App">
@@ -10,8 +10,8 @@ function App() {
           
           <div className='px-30'>
           
-          <Button>Click me</Button>
-          <ProductCard/>
+         
+          <Footer />
           </div>
       </div>
   );
