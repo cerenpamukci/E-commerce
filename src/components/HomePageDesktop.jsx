@@ -24,6 +24,7 @@ import blog1 from "./images/blog1.jpeg";
 import blog2 from "./images/blog2.jpg";
 import blog3 from "./images/blog3.jpg";
 
+
 const Homepage = () => {
     const [currentImage, setCurrentImage] = useState(0);
 
