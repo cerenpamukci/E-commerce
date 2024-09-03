@@ -17,6 +17,7 @@ import clothImage2 from './images/cloth2.jpeg';
 import clothImage3 from './images/cloth3.jpeg';
 import clothImage4 from './images/cloth4.jpeg';
 import clothImage5 from './images/cloth5.jpeg';
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const Shop = () => {
     return (
         <>
@@ -61,26 +62,26 @@ const Shop = () => {
         <section className="cloth-section p-6 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold text-center">Shop</h2>
             <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mt-8">
-                <a href="/shop/category/cloth1" className="cloth-card relative block">
+                <Link to="/product/1" className="cloth-card relative block">
                     <img src={clothImage1} alt="Cloth 1" className="w-full h-auto object-cover" />
                     <p className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center py-2">CLOTHS</p>
-                </a>
-                <a href="/shop/category/cloth2" className="cloth-card relative block">
+                </Link>
+                <Link to="/product/2" className="cloth-card relative block">
                     <img src={clothImage2} alt="Cloth 2" className="w-full h-auto object-cover" />
                     <p className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center py-2">CLOTHS</p>
-                </a>
-                <a href="/shop/category/cloth3" className="cloth-card relative block">
+                </Link>
+                <Link to="/product/3" className="cloth-card relative block">
                     <img src={clothImage3} alt="Cloth 3" className="w-full h-auto object-cover" />
                     <p className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center py-2">CLOTHS</p>
-                </a>
-                <a href="/shop/category/cloth4" className="cloth-card relative block">
+                </Link>
+                <Link to="/product/4" className="cloth-card relative block">
                     <img src={clothImage4} alt="Cloth 4" className="w-full h-auto object-cover" />
                     <p className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center py-2">CLOTHS</p>
-                </a>
-                <a href="/shop/category/cloth5" className="cloth-card relative block">
+                </Link>
+                <Link to="/product/5" className="cloth-card relative block">
                     <img src={clothImage5} alt="Cloth 5" className="w-full h-auto object-cover" />
                     <p className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center py-2">CLOTHS</p>
-                </a>
+                </Link>
             </div>
         </section>
 

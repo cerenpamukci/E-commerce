@@ -5,6 +5,9 @@ import Footer from './components/Footer';
 import Shop from "./components/Shop"
 import { Route, Router, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
+import ProductPage from "./ProductPage"
+import Contact from "./components/Contact"
+
 
 
 
@@ -18,8 +21,10 @@ function App() {
                    
                     <Route exact path="/" component={HomePage} />
                     <Route path="/shop" component={Shop} />
+                    <Route path="/product/:id" component={ProductPage} />
+                    <Route path="/contact" component={Contact} />
                 </Switch>
-                <Footer />
+                {location.pathname !== '/contact' && <Footer />}
             </div>
         </Router>
     );
