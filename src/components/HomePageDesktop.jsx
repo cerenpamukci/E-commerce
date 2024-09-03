@@ -154,7 +154,7 @@ const Homepage = () => {
                             <span className="text-yellow-500">●</span>
                             <span className="text-blue-500">●</span>
                             <span className="text-green-500">●</span>
-                            <span className="text-white-500">●</span>
+                            <span className="text-red-500">●</span>
                             <span className="text-black-500">●</span>
                         </div>
                     </div>
@@ -167,7 +167,7 @@ const Homepage = () => {
                         <span className="text-yellow-500">●</span>
                             <span className="text-blue-500">●</span>
                             <span className="text-green-500">●</span>
-                            <span className="text-white-500">●</span>
+                            <span className="text-red-500">●</span>
                             <span className="text-black-500">●</span>
                         </div>
                     </div>
@@ -180,7 +180,7 @@ const Homepage = () => {
                         <span className="text-yellow-500">●</span>
                             <span className="text-blue-500">●</span>
                             <span className="text-green-500">●</span>
-                            <span className="text-white-500">●</span>
+                            <span className="text-red-500">●</span>
                             <span className="text-black-500">●</span>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ const Homepage = () => {
                         <span className="text-yellow-500">●</span>
                             <span className="text-blue-500">●</span>
                             <span className="text-green-500">●</span>
-                            <span className="text-white-500">●</span>
+                            <span className="text-red-500">●</span>
                             <span className="text-black-500">●</span>
                         </div>
                     </div>
@@ -206,7 +206,7 @@ const Homepage = () => {
                         <span className="text-yellow-500">●</span>
                             <span className="text-blue-500">●</span>
                             <span className="text-green-500">●</span>
-                            <span className="text-white-500">●</span>
+                            <span className="text-red-500">●</span>
                             <span className="text-black-500">●</span>
                         </div>
                     </div>
@@ -219,7 +219,7 @@ const Homepage = () => {
                         <span className="text-yellow-500">●</span>
                             <span className="text-blue-500">●</span>
                             <span className="text-green-500">●</span>
-                            <span className="text-white-500">●</span>
+                            <span className="text-red-500">●</span>
                             <span className="text-black-500">●</span>
                         </div>
                     </div>
@@ -232,7 +232,7 @@ const Homepage = () => {
                         <span className="text-yellow-500">●</span>
                             <span className="text-blue-500">●</span>
                             <span className="text-green-500">●</span>
-                            <span className="text-white-500">●</span>
+                            <span className="text-red-500">●</span>
                             <span className="text-black-500">●</span>
                         </div>
                     </div>
@@ -245,7 +245,7 @@ const Homepage = () => {
                         <span className="text-yellow-500">●</span>
                             <span className="text-blue-500">●</span>
                             <span className="text-green-500">●</span>
-                            <span className="text-white-500">●</span>
+                            <span className="text-red-500">●</span>
                             <span className="text-black-500">●</span>
                         </div>
                     </div>
@@ -253,7 +253,6 @@ const Homepage = () => {
             </section>
             <section className="featured-section p-6 md:p-12">
     <div className="grid grid-cols-1 gap-4">
-        {/* İlk featured ürün */}
         <div className="featured-card relative w-full">
             <img src={featuredImage1} alt="Featured Product 1" className="w-full h-80 object-cover" />
             <div className="absolute bottom-0 left-0 p-6 bg-green-500 text-white">

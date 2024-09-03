@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="bg-gray-100 p-6 md:p-12">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-                    {/* Company Info */}
+                   
                     <div>
                         <h3 className="text-lg font-bold mb-4">Company Info</h3>
                         <ul className="text-gray-600">
@@ -18,7 +18,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Legal */}
+                  
                     <div>
                         <h3 className="text-lg font-bold mb-4">Legal</h3>
                         <ul className="text-gray-600">
@@ -29,7 +29,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Features */}
+         
                     <div>
                         <h3 className="text-lg font-bold mb-4">Features</h3>
                         <ul className="text-gray-600">
@@ -40,7 +40,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Resources */}
+                   
                     <div>
                         <h3 className="text-lg font-bold mb-4">Resources</h3>
                         <ul className="text-gray-600">
@@ -51,7 +51,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Get In Touch */}
+                  
                     <div>
                         <h3 className="text-lg font-bold mb-4">Get In Touch</h3>
                         <form>
